@@ -1,0 +1,29 @@
+Shift Robustness Audit
+======================
+
+Source domain: Digital Music
+Target domain: Luxury Beauty
+Source sampled reviews: 12000
+Target sampled reviews: 8000
+
+Core findings
+-------------
+Average macro F1 drop from source test to target test: 0.147
+Best source-domain model under source-only selection: tfidf_unweighted
+Best target-domain model under source-only selection: tfidf_unweighted
+Model families with different hyperparameter choices under source-only vs mixed validation: 1
+
+Shift diagnostics
+-----------------
+Domain-discriminator ROC AUC on source train vs target validation: 0.997
+Mean normalized training weight on source examples: 1.000
+Training weight range after clipping: 0.927 to 23.181
+
+Artifacts
+---------
+performance_summary.csv
+validation_selection_summary.csv
+example_predictions.csv
+performance_drop.png
+weighted_comparison.png
+validation_strategy.png

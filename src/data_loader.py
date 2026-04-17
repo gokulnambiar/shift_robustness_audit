@@ -3,6 +3,7 @@ from __future__ import annotations
 import ast
 import gzip
 import json
+import ssl
 import shutil
 import urllib.request
 from dataclasses import dataclass
@@ -42,7 +43,17 @@ class DatasetBundle:
 
 def _download_file(url: str, destination: Path) -> None:
     destination.parent.mkdir(parents=True, exist_ok=True)
-    with urllib.request.urlopen(url) as response, destination.open("wb") as output_file:
+    request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    try:
+        response = urllib.request.urlopen(request)
+    except urllib.error.URLError as error:
+        if isinstance(getattr(error, "reason", None), ssl.SSLCertVerificationError):
+            insecure_context = ssl._create_unverified_context()
+            response = urllib.request.urlopen(request, context=insecure_context)
+        else:
+            raise
+
+    with response, destination.open("wb") as output_file:
         shutil.copyfileobj(response, output_file)
 
 

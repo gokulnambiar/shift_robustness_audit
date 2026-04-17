@@ -1,0 +1,23 @@
+{
+  "source_domain": "Digital Music",
+  "target_domain": "Luxury Beauty",
+  "source_raw_reviews": 143590,
+  "target_raw_reviews": 29851,
+  "source_sampled_reviews": 12000,
+  "target_sampled_reviews": 8000,
+  "source_label_balance": {
+    "0": 3714,
+    "1": 8286
+  },
+  "target_label_balance": {
+    "0": 2579,
+    "1": 5421
+  },
+  "splits": {
+    "source_train": 7200,
+    "source_val": 2400,
+    "source_test": 2400,
+    "target_val": 4000,
+    "target_test": 4000
+  }
+}

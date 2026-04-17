@@ -1,0 +1,49 @@
+experiment_name,selection_strategy,split,domain_name,true_label_name,predicted_label_name,confidence,positive_probability,text_excerpt,selected_c
+tfidf_unweighted,source_only,target_test,Luxury Beauty,negative,positive,0.9783526867908307,0.9783526867908307,Five Stars Great Perfume,1.0
+tfidf_unweighted,source_only,target_test,Luxury Beauty,negative,positive,0.9156389998404643,0.9156389998404643,Five Stars Great product.,1.0
+tfidf_unweighted,source_only,target_test,Luxury Beauty,positive,negative,0.7972577121991159,0.20274228780088407,"Works, smell isn't that bad Meh, I didn't find the smell of the product to be that bad when I applied it. Perhaps I'm just not as sensitive as others are though -- it was definitely noticeable but nothing I couldn't live with. The product b",1.0
+tfidf_unweighted,source_only,target_test,Luxury Beauty,positive,positive,0.9810649672345709,0.9810649672345709,Five Stars I love it!,1.0
+tfidf_unweighted,source_only,target_test,Luxury Beauty,positive,positive,0.9810649672345709,0.9810649672345709,Five Stars I LOVE IT,1.0
+tfidf_unweighted,source_only,target_test,Luxury Beauty,positive,positive,0.9810649672345709,0.9810649672345709,Five Stars I love it,1.0
+tfidf_importance_weighted,source_only,target_test,Luxury Beauty,negative,positive,0.9782523642188883,0.9782523642188883,Five Stars Great Perfume,1.0
+tfidf_importance_weighted,source_only,target_test,Luxury Beauty,negative,positive,0.9172452700481181,0.9172452700481181,Five Stars Great product.,1.0
+tfidf_importance_weighted,source_only,target_test,Luxury Beauty,positive,negative,0.7977758380710327,0.20222416192896728,"Works, smell isn't that bad Meh, I didn't find the smell of the product to be that bad when I applied it. Perhaps I'm just not as sensitive as others are though -- it was definitely noticeable but nothing I couldn't live with. The product b",1.0
+tfidf_importance_weighted,source_only,target_test,Luxury Beauty,positive,positive,0.980960144704657,0.980960144704657,Five Stars I love it,1.0
+tfidf_importance_weighted,source_only,target_test,Luxury Beauty,positive,positive,0.980960144704657,0.980960144704657,Five Stars I love it,1.0
+tfidf_importance_weighted,source_only,target_test,Luxury Beauty,positive,positive,0.980960144704657,0.980960144704657,Five Stars I LOVE IT,1.0
+embedding_unweighted,source_only,target_test,Luxury Beauty,negative,positive,0.9976360042572148,0.9976360042572148,Five Stars Great Perfume,2.0
+embedding_unweighted,source_only,target_test,Luxury Beauty,negative,positive,0.9873775263047043,0.9873775263047043,Five Stars Great product.,2.0
+embedding_unweighted,source_only,target_test,Luxury Beauty,positive,negative,0.9648379548177711,0.03516204518222891,"Works Just Fine Removes makeup easily and on-waterproof mascara. Odor-free, non-oily. What's not to like?",2.0
+embedding_unweighted,source_only,target_test,Luxury Beauty,positive,positive,0.9996662593605804,0.9996662593605804,Wonderful color Wonderful color,2.0
+embedding_unweighted,source_only,target_test,Luxury Beauty,positive,positive,0.9991469331424107,0.9991469331424107,Five Stars beautiful lavender colour,2.0
+embedding_unweighted,source_only,target_test,Luxury Beauty,positive,positive,0.9989489254671746,0.9989489254671746,Lovely color Beautiful colors by OPI infinite shine collection,2.0
+embedding_importance_weighted,source_only,target_test,Luxury Beauty,negative,positive,0.9980911069422609,0.9980911069422609,Five Stars Great Perfume,2.0
+embedding_importance_weighted,source_only,target_test,Luxury Beauty,negative,positive,0.9912241071218263,0.9912241071218263,Five Stars Great product.,2.0
+embedding_importance_weighted,source_only,target_test,Luxury Beauty,positive,negative,0.9616658997776355,0.038334100222364526,"Works Just Fine Removes makeup easily and on-waterproof mascara. Odor-free, non-oily. What's not to like?",2.0
+embedding_importance_weighted,source_only,target_test,Luxury Beauty,positive,positive,0.999803701449201,0.999803701449201,Wonderful color Wonderful color,2.0
+embedding_importance_weighted,source_only,target_test,Luxury Beauty,positive,positive,0.9992918850034747,0.9992918850034747,Five Stars beautiful lavender colour,2.0
+embedding_importance_weighted,source_only,target_test,Luxury Beauty,positive,positive,0.9991940895389246,0.9991940895389246,Lovely color Beautiful colors by OPI infinite shine collection,2.0
+tfidf_unweighted,mixed_validation,target_test,Luxury Beauty,negative,positive,0.9698760859273352,0.9698760859273352,Five Stars Great Perfume,0.5
+tfidf_unweighted,mixed_validation,target_test,Luxury Beauty,negative,positive,0.9015852164053944,0.9015852164053944,Five Stars Great product.,0.5
+tfidf_unweighted,mixed_validation,target_test,Luxury Beauty,positive,negative,0.7705448406414729,0.22945515935852714,"Works, smell isn't that bad Meh, I didn't find the smell of the product to be that bad when I applied it. Perhaps I'm just not as sensitive as others are though -- it was definitely noticeable but nothing I couldn't live with. The product b",0.5
+tfidf_unweighted,mixed_validation,target_test,Luxury Beauty,positive,positive,0.9721657799432313,0.9721657799432313,Five Stars I love it,0.5
+tfidf_unweighted,mixed_validation,target_test,Luxury Beauty,positive,positive,0.9721657799432313,0.9721657799432313,Five Stars I LOVE IT,0.5
+tfidf_unweighted,mixed_validation,target_test,Luxury Beauty,positive,positive,0.9721657799432313,0.9721657799432313,Five Stars I love it,0.5
+tfidf_importance_weighted,mixed_validation,target_test,Luxury Beauty,negative,positive,0.9782523776368311,0.9782523776368311,Five Stars Great Perfume,1.0
+tfidf_importance_weighted,mixed_validation,target_test,Luxury Beauty,negative,positive,0.9172453129781598,0.9172453129781598,Five Stars Great product.,1.0
+tfidf_importance_weighted,mixed_validation,target_test,Luxury Beauty,positive,negative,0.7977757999443646,0.2022242000556353,"Works, smell isn't that bad Meh, I didn't find the smell of the product to be that bad when I applied it. Perhaps I'm just not as sensitive as others are though -- it was definitely noticeable but nothing I couldn't live with. The product b",1.0
+tfidf_importance_weighted,mixed_validation,target_test,Luxury Beauty,positive,positive,0.9809601432105415,0.9809601432105415,Five Stars I love it,1.0
+tfidf_importance_weighted,mixed_validation,target_test,Luxury Beauty,positive,positive,0.9809601432105415,0.9809601432105415,Five Stars I love it,1.0
+tfidf_importance_weighted,mixed_validation,target_test,Luxury Beauty,positive,positive,0.9809601432105415,0.9809601432105415,Five Stars I LOVE IT,1.0
+embedding_unweighted,mixed_validation,target_test,Luxury Beauty,negative,positive,0.9976360042572148,0.9976360042572148,Five Stars Great Perfume,2.0
+embedding_unweighted,mixed_validation,target_test,Luxury Beauty,negative,positive,0.9873775263047043,0.9873775263047043,Five Stars Great product.,2.0
+embedding_unweighted,mixed_validation,target_test,Luxury Beauty,positive,negative,0.9648379548177711,0.03516204518222891,"Works Just Fine Removes makeup easily and on-waterproof mascara. Odor-free, non-oily. What's not to like?",2.0
+embedding_unweighted,mixed_validation,target_test,Luxury Beauty,positive,positive,0.9996662593605804,0.9996662593605804,Wonderful color Wonderful color,2.0
+embedding_unweighted,mixed_validation,target_test,Luxury Beauty,positive,positive,0.9991469331424107,0.9991469331424107,Five Stars beautiful lavender colour,2.0
+embedding_unweighted,mixed_validation,target_test,Luxury Beauty,positive,positive,0.9989489254671746,0.9989489254671746,Lovely color Beautiful colors by OPI infinite shine collection,2.0
+embedding_importance_weighted,mixed_validation,target_test,Luxury Beauty,negative,positive,0.9980911069422609,0.9980911069422609,Five Stars Great Perfume,2.0
+embedding_importance_weighted,mixed_validation,target_test,Luxury Beauty,negative,positive,0.9912241071218263,0.9912241071218263,Five Stars Great product.,2.0
+embedding_importance_weighted,mixed_validation,target_test,Luxury Beauty,positive,negative,0.9616658997776355,0.038334100222364526,"Works Just Fine Removes makeup easily and on-waterproof mascara. Odor-free, non-oily. What's not to like?",2.0
+embedding_importance_weighted,mixed_validation,target_test,Luxury Beauty,positive,positive,0.999803701449201,0.999803701449201,Wonderful color Wonderful color,2.0
+embedding_importance_weighted,mixed_validation,target_test,Luxury Beauty,positive,positive,0.9992918850034747,0.9992918850034747,Five Stars beautiful lavender colour,2.0
+embedding_importance_weighted,mixed_validation,target_test,Luxury Beauty,positive,positive,0.9991940895389246,0.9991940895389246,Lovely color Beautiful colors by OPI infinite shine collection,2.0

@@ -25,7 +25,7 @@ Three-star reviews are dropped to keep the decision boundary clean. The script b
 The audit compares two feature pipelines:
 
 - TF-IDF + Linear SVM
-- Frozen sentence embeddings from `all-MiniLM-L6-v2` + logistic regression
+- Frozen pooled GloVe embeddings from `glove-wiki-gigaword-50` + logistic regression
 
 Each pipeline is trained twice:
 
@@ -59,7 +59,7 @@ The main comparison to look for is the gap between held-out source performance a
 
 ```bash
 cd /Users/gokulnambiar/Codex/shift_robustness_audit
-python3 -m venv .venv
+python3.11 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python data/download_amazon_reviews.py

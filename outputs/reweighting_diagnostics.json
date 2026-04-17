@@ -1,0 +1,16 @@
+{
+  "train": {
+    "domain_auc": 0.9972675,
+    "mean_target_probability_on_source": 0.07798046656556304,
+    "min_weight": 0.9272575936907288,
+    "max_weight": 23.18143984226822,
+    "mean_weight": 1.0
+  },
+  "full_train": {
+    "domain_auc": 0.993373125,
+    "mean_target_probability_on_source": 0.06267714243345684,
+    "min_weight": 0.9565384900788182,
+    "max_weight": 23.913462251970454,
+    "mean_weight": 1.0000000000000002
+  }
+}

@@ -1,0 +1,17 @@
+experiment_name,model_family,weighting,selection_strategy,split,selected_c,n_examples,accuracy,macro_f1,precision,recall
+embedding_importance_weighted,embedding,importance_weighted,mixed_validation,source_test,2.0,2400,0.8095833333333333,0.7606690269541927,0.8282275711159738,0.9136994568497284
+embedding_importance_weighted,embedding,importance_weighted,mixed_validation,target_test,2.0,4000,0.611,0.6105228905409126,0.9034965034965035,0.47675276752767526
+embedding_unweighted,embedding,unweighted,mixed_validation,source_test,2.0,2400,0.8104166666666667,0.763713642572743,0.8320441988950277,0.9088714544357273
+embedding_unweighted,embedding,unweighted,mixed_validation,target_test,2.0,4000,0.58575,0.5857493527333637,0.909727626459144,0.4313653136531365
+tfidf_importance_weighted,tfidf,importance_weighted,mixed_validation,source_test,1.0,2400,0.9458333333333333,0.9365027678280691,0.9591100420926038,0.9625829812914907
+tfidf_importance_weighted,tfidf,importance_weighted,mixed_validation,target_test,1.0,4000,0.81975,0.8044459259420991,0.912826899128269,0.8114391143911439
+tfidf_unweighted,tfidf,unweighted,mixed_validation,source_test,0.5,2400,0.9470833333333334,0.9379448380916083,0.9597355769230769,0.963789981894991
+tfidf_unweighted,tfidf,unweighted,mixed_validation,target_test,0.5,4000,0.82325,0.8078913844516606,0.9136720363486163,0.8162361623616237
+embedding_importance_weighted,embedding,importance_weighted,source_only,source_test,2.0,2400,0.8095833333333333,0.7606690269541927,0.8282275711159738,0.9136994568497284
+embedding_importance_weighted,embedding,importance_weighted,source_only,target_test,2.0,4000,0.611,0.6105228905409126,0.9034965034965035,0.47675276752767526
+embedding_unweighted,embedding,unweighted,source_only,source_test,2.0,2400,0.8104166666666667,0.763713642572743,0.8320441988950277,0.9088714544357273
+embedding_unweighted,embedding,unweighted,source_only,target_test,2.0,4000,0.58575,0.5857493527333637,0.909727626459144,0.4313653136531365
+tfidf_importance_weighted,tfidf,importance_weighted,source_only,source_test,1.0,2400,0.9458333333333333,0.9365027678280691,0.9591100420926038,0.9625829812914907
+tfidf_importance_weighted,tfidf,importance_weighted,source_only,target_test,1.0,4000,0.81975,0.8044459259420991,0.912826899128269,0.8114391143911439
+tfidf_unweighted,tfidf,unweighted,source_only,source_test,1.0,2400,0.94625,0.9369202279266131,0.9585834333733494,0.963789981894991
+tfidf_unweighted,tfidf,unweighted,source_only,target_test,1.0,4000,0.82475,0.8090489418321809,0.9121871153057037,0.8202952029520295
