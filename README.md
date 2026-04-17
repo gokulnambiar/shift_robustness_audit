@@ -54,14 +54,3 @@ Running the pipeline writes the full audit into `outputs/`:
 - `performance_drop.png`, `weighted_comparison.png`, and `validation_strategy.png`
 
 The main comparison to look for is the gap between held-out source performance and target-domain performance. The weighting and mixed-validation artifacts make it easy to see whether a shift-aware setup changes which model looks best.
-
-## Run
-
-```bash
-cd /Users/gokulnambiar/Codex/shift_robustness_audit
-python3.11 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python data/download_amazon_reviews.py
-python main.py
-```
